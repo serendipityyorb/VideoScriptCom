@@ -7,10 +7,10 @@ with st.sidebar:
     api_key = st.text_input("请输入你的API密钥:",type="password")
     base_url = st.text_input("请输入你的API服务端点:")
     st.markdown("[从该网站学习获取教程](https://ai.nengyongai.cn/register?aff=PEeJ)")
-    st.markdown("<br>"*30, unsafe_allow_html=True)  # 生成30个空行
+    st.markdown("<br>"*10, unsafe_allow_html=True)  # 生成30个空行
     st.markdown("&nbsp;"*20+"**作者署名**  *Serendipity*",unsafe_allow_html=True)
 st.info("""
-🤖 我这是一个视频脚本生成大师(很厉害的那种喵！！),
+🤖 我是一个视频脚本生成大师(很厉害的那种喵！！),
 来都来了，快提供给我你要生成的视频标题、时长、创造力吧！
 分享乐事一条：装垃圾的叫垃圾袋，装脑子的叫脑袋~~~""")
 
